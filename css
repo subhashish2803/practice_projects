@@ -1,0 +1,59 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('https://files.oaiusercontent.com/file-9K9FpYnpvaX4SXWMRu5yZz?se=2025-01-11T11%3A41%3A01Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Da067af94-1c0b-4016-9726-acb95dd8dfe7.webp&sig=LHp56yrNrUK1nGs/o6Ec1HEsWIv%2B%2BMcxAfC4KE4VMB4%3D') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+  transition: background 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background: #1a202c url('https://files.oaiusercontent.com/file-9K9FpYnpvaX4SXWMRu5yZz?se=2025-01-11T11%3A41%3A01Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Da067af94-1c0b-4016-9726-acb95dd8dfe7.webp&sig=LHp56yrNrUK1nGs/o6Ec1HEsWIv%2B%2BMcxAfC4KE4VMB4%3D') #1a202c;
+  color: #e2e8f0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+}
+
+header h1 {
+  color: #2a9d8f;
+  margin-bottom: 10px;
+}
+
+
+#real-time canvas {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
+
+.input-field {
+  width: 70%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #2a9d8f;
+  border-radius: 5px;
+}
+
+.calc-btn {
+  background: #264653;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 0.9em;
+  color: #555;
+}
